@@ -21,7 +21,7 @@ var style_LotTM_5 = function(feature, resolution){
         labelText = String(feature.get("Labeltest"));
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(38,89,128,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}),fill: new ol.style.Fill({color: 'rgba(55,126,184,1.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(38,89,128,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}),fill: new ol.style.Fill({color: 'rgba(55,126,184,0.7)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
